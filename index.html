@@ -12,14 +12,16 @@
     <!-- icon library -->
     <script src="https://unpkg.com/feather-icons"></script>
     <link rel="stylesheet" href="main.css" />
+    <link rel="shortcut icon" href="./images/favicon.png" type="image/x-icon">
     <title>Razorpay Clone | Kushal</title>
 </head>
 
 <body>
+
     <!-----------------------------Navbar----------------------------->
     <nav class="bg-deepBlue">
 
-        <div class="relative md:w-11/12 max-w-[1080px] mx-auto flex items-center justify-between">
+        <div class="relative w-10/12 md:w-11/12 max-w-[1080px] mx-auto flex items-center justify-between">
             <!-- logo -->
             <a href="/" class="cursor-pointer py-7 pr-7 block">
                 <img src="./images/logo.svg" width="125px" height="30px" loading="lazy" alt="" />
@@ -112,8 +114,43 @@
     </nav>
     <!-----------------------------Navbar----------------------------->
 
+    <!-----------------------------Hero Section----------------------------->
+    <section class="relative bg-deepBlue w-[100%]">
 
-    
+        <div
+            class="w-10/12 md:w-11/12 max-w-100% mx-auto flex flex-col lg:flex-row items-center justify-between -mt-[0.5px]">
+            <!-- left part -->
+            <div class="space-y-8 my-16 lg:my-0">
+                <h1 class="font-mullish text-white font-extrabold text-[40px] leading-[1.2]">Power your finance, grow
+                    your business</h1>
+
+                <div class="w-6 h-1 bg-greenLight"></div>
+
+                <p class="font-mullish text-[18px] leading-7 text-white opacity-70"> Accept payments from customers.
+                    Automate payouts to vendors &
+                    employees. Never run out of working capital.</p>
+
+                <button
+                    class="bg-lightBlue text-white rounded-md font-mullish font-bold hover:bg-lightBlue500 transition-all duration-200 py-[14px] px-[18px]">
+                    Sign Up Now
+                </button>
+            </div>
+
+            <!-- right part -->
+            <img src="./images/hero-illustration.jpg" alt="Online Payments, Virtual Accounts, Bank Transfer, and more"
+                loading="lazy" class="w-full max-w-[680px]">
+        </div>
+
+        <!-- Shape part -->
+
+        <div class="absolute w-full md:w-[100%] left-0 right-0 top-[98%] md:-right-2 z-[1000]"> <img
+                src="./images/hero-shape.svg" loading="lazy" class="w-full object-fill z-10" />
+        </div>
+
+    </section>
+
+    <!-----------------------------Hero Section----------------------------->
+
     <script>
         feather.replace()
     </script>
