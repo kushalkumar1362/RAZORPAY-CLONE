@@ -38,3 +38,7 @@
   background-repeat: no-repeat;
   background-position: bottom 1rem right;
 }
+
+.newFeatureCard {
+  box-shadow: 2px 4px 9px 1px hsla(0, 0%, 0%, 0.05);
+}
