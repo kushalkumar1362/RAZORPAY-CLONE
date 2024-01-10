@@ -70,7 +70,26 @@
     top: 0;
   }
 
-  100%{
+  100% {
     top: -160%;
+  }
+}
+
+.ctaSection {
+  min-height: 880px;
+}
+
+.ctaBg {
+  background-size: 200% 100%;
+}
+
+
+@media screen and (min-width: 1024px) {
+  .ctaBg {
+    background-size: 100% 100%;
+  }
+
+  .ctaSection {
+    min-height: 530px;
   }
 }
