@@ -49,8 +49,7 @@
   padding-bottom: 20rem;
 }
 
-.coreFeaturesBg
-.overflow-hidden {
+.coreFeaturesBg .overflow-hidden {
   overflow: hidden;
 }
 
@@ -59,5 +58,19 @@
     background-size: 100% 100%;
     padding-top: 12rem;
     padding-bottom: 12rem;
+  }
+}
+
+.companiesList {
+  animation: 30s infinite linear companiesMovingImage;
+}
+
+@keyframes companiesMovingImage {
+  0% {
+    top: 0;
+  }
+
+  100%{
+    top: -160%;
   }
 }
