@@ -1,0 +1,5 @@
+# Ignore Node.js related files
+node_modules/
+
+*.json
+*.js
